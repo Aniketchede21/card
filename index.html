@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .element ul li {
+        list-style: none;
+        justify-content: end;
+        border-radius: 30%;
+      }
+
+      ul li:hover {
+        background-color: rgb(238, 173, 10);
+        color: black;
+        cursor: pointer;
+        
+      }
+      .btn{
+        background-color: rgb(238, 173, 10);
+      }
+
+      .btn:hover {
+        background-color: black;
+        color: rgb(236, 75, 12);
+        cursor: pointer;
+      }
+
+      .btn2{
+        background-color: rgb(238, 173, 10);
+        color: rgb(26, 1, 1);
+      }
+
+
+      .btn2:hover {
+        background-color: black;
+        color: rgb(236, 75, 12);
+        cursor: pointer;
+      }
+
+      body {
+        background-image: url(pexels-simon73-1323550.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        color: rgb(0, 0, 0);
+      }
+
+      .collection{
+        display: flex;
+    margin-top: 46px;
+    margin-left: 470px;
+    gap: 10px;
+      }
+      input{
+        width:  200px;
+        padding: 10px;
+      }
+
+      .collection .name{
+        background-color: rgb(230, 217, 217);
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        width: 20px;
+    justify-content: center;
+
+   
+      }
+
+      input::placeholder{
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <nav style="display: flex">
+        <div class="logo" style="width: 50%">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldwz5-C1nMHJ22kgfWLLxDJ851OQFpn1_pA&s"
+            alt=""
+            height="100"
+            style="border-radius: 50%; margin-left: 30px; opacity: 0.7;"
+          />
+        </div>
+        <div
+          class="element"
+          style="
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            margin-right: 115px;
+          "
+        >
+          <ul
+            style="
+              display: flex;
+              gap: 30px;
+              background-color: #c4b079c2;
+              opacity: 0.6;
+              padding: 12px;
+              border-radius: 10px;
+              margin: 10px;
+              width: 500px;
+              align-items: center;
+              justify-content: center;
+              border: 2px solid white;
+            "
+          >
+            <li style="padding: 10px 15px;">Home</li>
+            <li style="padding: 10px 15px;">Services</li>
+            <li style="padding: 10px 15px;">About us</li>
+            <li style="padding: 10px 15px;">Contact us</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="main2" style="display: flex
+    ;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        ">
+      <div
+        class="left"
+        style="          
+          display: flex;
+          flex-direction: column;
+          width: 50%;          
+          justify-content: center;
+          align-items: center;
+          background-color: #b8af98;
+          opacity: 0.6;
+          height: 400px;
+    width: 600px;
+    padding: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+        "
+      >
+        <h1>GLASSMORPHISM</h1>
+        <h3>Login Page</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          officia illum dolore nesciunt unde, tenetur neque voluptas magni?
+          Consequuntur eligendi at ad molestias voluptatibus veniam magni dolore
+          rerum, pariatur debitis!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, eaque,
+          architecto quisquam saepe veritatis maxime minima iusto in optio, amet
+          facere? Odit, dolorem nam saepe ipsum iste culpa magni deleniti?
+        </p>
+        <button class="btn" style="padding: 10px;
+    border-radius: 10px; border: 2px solid rgb(247, 247, 247); ">Learn More</button>
+        <div class="collection">
+<div class="name">I</div>
+<div class="name">N</div>
+<div class="name">D</div>
+<div class="name">I</div>
+<div class="name">A</div>
+</div>
+      </div>
+
+
+
+
+      <div class="right" style="width: 50%">
+
+        <div
+        class="right2"
+        style="
+          
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          
+         
+          justify-content: center;
+          align-items: center;
+          background-color: #b8af98;
+          opacity: 0.6;
+          height: 400px;
+    width: 600px;
+    padding: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+        "
+      >
+   <h1 style="    margin-bottom: 60px;
+">Login</h1>
+
+   <div><input type="text" placeholder="Username" style="border-radius: 20px; border: 2px solid white; background-color: transparent; "> </div>
+   <br>
+   <input type="text" placeholder="Password" style="border-radius: 20px; border: 2px solid white; background-color: transparent;"">
+
+<button class="btn2" style="border: 2px solid rgb(255, 255, 255); border-radius: 10px; padding: 10px; margin-top: 30px; width: 93px;">Login</button>
+
+      </div>
+    </div>
+  </body>
+</html>
